@@ -1,0 +1,13 @@
+#include "stm32f10x.h"                  // Device header
+
+//±‡¬Î∏Ò Ω£∫GB2312
+
+int main(void)
+{
+	
+	
+	while (1)
+	{
+		
+	}
+}
