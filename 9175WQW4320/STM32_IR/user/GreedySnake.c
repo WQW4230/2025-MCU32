@@ -9,8 +9,8 @@
 static Snake Snake_P1;
 
 uint8_t SnakeState_Flag = 0;
-uint16_t x = 0;
-uint16_t y = 0;
+//static uint16_t x = 0;
+//static uint16_t y = 0;
 
 //棋盘宽度
 void CreateMap(void)

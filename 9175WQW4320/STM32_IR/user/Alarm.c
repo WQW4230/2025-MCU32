@@ -230,10 +230,12 @@ void Alarm_Switch(void)
 //时间比较函数
 void Alarm_Check(void)
 {
-	
-	if(Set_AlarmTime.day  == Rtctime.day &&
-	Set_AlarmTime.hour == Rtctime.hour    &&
-	Set_AlarmTime.min  == Rtctime.min && Rtctime.sec == 0)	 
+	//读当前时间
+	RTC_ReadTime();
+	if(Set_AlarmTime.day  == Rtctime.day   &&
+	   Set_AlarmTime.hour == Rtctime.hour  &&
+	   Set_AlarmTime.min  == Rtctime.min   &&
+			      Rtctime.sec == 0               )     
 	{
 		Alarm_Trigger_Flag = 1;
 	}

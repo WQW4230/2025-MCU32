@@ -53,7 +53,7 @@ void LED_Flicker_Proc(uint16_t Flicker)
 void LED_Shwo(uint16_t Flicker)
 {
 	OLED_Printf(64, 0, OLED_8X16, "%d", Flicker);
-	OLED_UpdateArea(64, 0, 24, 16);
+	OLED_UpdateArea(64, 0, 32, 16);
 	OLED_Clear();
 }
 

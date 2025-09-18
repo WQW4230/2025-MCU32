@@ -58,7 +58,8 @@ static void Menu_HomeShow(void)
 					}
 				}
     }
-		RTC_ReadTime();
+		//读当前时间已经移动到Alarm的时间比较函数下调用一次即可
+		//RTC_ReadTime();
 		OLED_Printf(70, 0, OLED_6X8, "%d-%d-%d", Rtctime.year, Rtctime.mon, Rtctime.day);
 		OLED_Printf(76, 8, OLED_6X8, "%d:%d:%d", Rtctime.hour, Rtctime.min, Rtctime.sec);
     OLED_Update();
