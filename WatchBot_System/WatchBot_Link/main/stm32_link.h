@@ -17,17 +17,17 @@ extern "C" {
 
 #define FRAME_HEADER 0x88 //帧头
 #define FRAME_END    0x66 //帧尾
-#define DATA_MIN_LEN 5		 //一帧最少几字节
+#define DATA_MIN_LEN 5	  //一帧最少几字节
 #define DATA_MAX_LEN 8    //最多8个
 #define DATA_ARM_LEN 10   //控制机械臂的一帧为10字节
 
-#define FRAME_IDX_HEADER   0   								// 帧头在第0位
-#define FRAME_IDX_CMD      1  							  // 命令在第1位
-#define FRAME_IDX_LEN      2   								// 数据长度在第2位
-#define FRAME_IDX_DATA     3   								// 数据从第3位开始
-#define FRAME_IDX_END_MIN	 DATA_MIN_LEN	- 1		// 一帧5字节时帧尾位置
+#define FRAME_IDX_HEADER   0   		// 帧头在第0位
+#define FRAME_IDX_CMD      1  		// 命令在第1位
+#define FRAME_IDX_LEN      2   		// 数据长度在第2位
+#define FRAME_IDX_DATA     3   		// 数据从第3位开始
+#define FRAME_IDX_END_MIN  DATA_MIN_LEN	- 1		// 一帧5字节时帧尾位置
 #define FRAME_IDX_END_MAX  DATA_MAX_LEN	- 1		// 一帧8字节时帧尾位置
-#define FRAME_IDX_END_ARM  DATA_ARM_LEN - 1   // 一帧10字节时候帧尾的位置
+#define FRAME_IDX_END_ARM  DATA_ARM_LEN - 1     // 一帧10字节时候帧尾的位置
 
 /*
 一帧的数据结构如下

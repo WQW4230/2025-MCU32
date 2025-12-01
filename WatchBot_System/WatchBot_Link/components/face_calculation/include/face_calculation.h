@@ -16,17 +16,26 @@ extern "C" {
 #define FOV_Y_DEG     48.0f  //垂直视场
 
 //鼻子眼睛的权重比
-#define KEYPOINT_EYES_WEIGHT       0.85f
+#define KEYPOINT_EYES_WEIGHT       0.95f
 #define KEYPOINT_MOUTH_WEIGHT     (1.0f - KEYPOINT_EYES_WEIGHT)
+/*
+    1m推荐 5 1 3
+*/
+#define FACE_PAN_DEADZONE_ANGLE        3.0f     // 偏航角死区 单位°度
+#define FACE_ROLL_DEADZONE_ANGLE       1.0f     // 翻滚角死区
+#define FACE_TILT_DEADZONE_ANGLE       1.0f     // 俯仰角死区
 
-#define FACE_PAN_DEADZONE_ANGLE        5.0f     // 偏航角死区 单位°度
-#define FACE_ROLL_DEADZONE_ANGLE       3.5f     // 翻滚角死区
-#define FACE_TILT_DEADZONE_ANGLE       3.5f     // 俯仰角死区
-
-//角度增益 当前角 * 系数
-#define ARM_PAN_GAIN                  0.3f
-#define ARM_ROLL_GAIN                 0.4f
-#define ARM_TILT_GAIN                 0.4f
+/*
+    角度增益 当前角 * 系数
+    越小响应慢，抖动越小
+    越大响应快，抖动大
+    近距离小
+    远距离大
+    1m推荐 0.45 0.35 0.5
+*/ 
+#define ARM_PAN_GAIN                  0.25f 
+#define ARM_ROLL_GAIN                 0.35f
+#define ARM_TILT_GAIN                 0.25f
 
 //角度翻转
 #define ARM_PAN_INVERT                -1    
