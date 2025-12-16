@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3">
+  <diagram name="第 1 页" id="hb1MTNZ8VhLN-3GRFLup">
+    <mxGraphModel dx="961" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-23" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人脸检测信号接收" vertex="1">
+          <mxGeometry height="30" width="120" x="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-25" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;触发追踪模式&amp;nbsp; &amp;nbsp; &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(xQueuePatrllin 接收信号)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-27" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="关闭巡逻任务 (patrolling_off)" vertex="1">
+          <mxGeometry height="50" width="120" x="310" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-29" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;开启报警灯与拍照&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(camera_flash_set,&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;cmd_app_capture)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-31" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="蜂鸣器开启 (500ms周期)" vertex="1">
+          <mxGeometry height="40" width="120" x="310" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-34" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;云台锁定当前角度&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(直到人脸消失或超时3秒)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-36" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="退出追踪模式(若3秒内无信号)" vertex="1">
+          <mxGeometry height="50" width="120" x="310" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进入巡逻模式" vertex="1">
+          <mxGeometry height="30" width="120" x="310" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+  <diagram name="第 1 页" id="dGpJerVEI-f76KQVp7yk">
+    <mxGraphModel dx="961" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-10" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-11" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="80" />
+            </Array>
+            <mxPoint x="180" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-12" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="350" />
+            </Array>
+            <mxPoint x="180.03910614525142" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="核心层&lt;div&gt;双MCU协同系统&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-29" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="250" />
+            </Array>
+            <mxPoint x="340" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-30" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ESP32" vertex="1">
+          <mxGeometry height="20" width="90" x="210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="STM32" vertex="1">
+          <mxGeometry height="20" width="90" x="210" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-23" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TxhMIqtNcsSWE-3iQg4F-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-26" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-27" edge="1" parent="1" source="TxhMIqtNcsSWE-3iQg4F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="公共执行模块" vertex="1">
+          <mxGeometry height="20" width="90" x="220" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="红外接收" vertex="1">
+          <mxGeometry height="20" width="90" x="380" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="菜单选择" vertex="1">
+          <mxGeometry height="20" width="90" x="380" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="小游戏" vertex="1">
+          <mxGeometry height="20" width="90" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="云台控制" vertex="1">
+          <mxGeometry height="20" width="90" x="380" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OLED显示" vertex="1">
+          <mxGeometry height="20" width="90" x="380" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="摇杆控制" vertex="1">
+          <mxGeometry height="20" width="90" x="380" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人脸检测与姿态计算" vertex="1">
+          <mxGeometry height="20" width="110" x="350" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LCD实时显示摄像头" vertex="1">
+          <mxGeometry height="20" width="110" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="云台控制" vertex="1">
+          <mxGeometry height="20" width="110" x="350" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LED与蜂鸣器报警" vertex="1">
+          <mxGeometry height="20" width="110" x="350" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="拍照触发" vertex="1">
+          <mxGeometry height="20" width="110" x="350" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-34" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="79.83" as="sourcePoint" />
+            <mxPoint x="330" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="20" />
+            </Array>
+            <mxPoint x="330" y="80" as="sourcePoint" />
+            <mxPoint x="380" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TxhMIqtNcsSWE-3iQg4F-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="170" as="sourcePoint" />
+            <mxPoint x="370" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-38" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="170" as="sourcePoint" />
+            <mxPoint x="330" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="50" as="sourcePoint" />
+            <mxPoint x="380" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="79.83" as="sourcePoint" />
+            <mxPoint x="380" y="79.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="109.83" as="sourcePoint" />
+            <mxPoint x="380" y="109.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxhMIqtNcsSWE-3iQg4F-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="139.83" as="sourcePoint" />
+            <mxPoint x="380" y="139.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

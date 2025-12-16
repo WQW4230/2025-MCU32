@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+  <diagram name="第 1 页" id="MfXWOg3FxTNs49fspSjQ">
+    <mxGraphModel dx="961" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-3" edge="1" parent="1" source="2LLBd-8nz-EJacW8x2TW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2LLBd-8nz-EJacW8x2TW-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre class=&quot;container-S2LAkl language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-size: 1em; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #edededd9); --code-doc_v3: light-dark(#00000073, #ededed73); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #edededd9); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot;&gt;&lt;code class=&quot;language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-size: 13px; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot;&gt;&lt;span class=&quot;token text string&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; overflow-anchor: auto; background: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;启动Scheduler_Run函数&lt;/font&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-5" edge="1" parent="1" source="2LLBd-8nz-EJacW8x2TW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2LLBd-8nz-EJacW8x2TW-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre class=&quot;container-S2LAkl language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-size: 1em; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #edededd9); --code-doc_v3: light-dark(#00000073, #ededed73); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #edededd9); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content; text-align: start;&quot;&gt;&lt;code class=&quot;language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-size: 13px; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;进入while&lt;span class=&quot;token text string&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; overflow-anchor: auto; background: transparent;&quot;&gt;(1)&lt;/span&gt;无限主循环&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="360" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-7" edge="1" parent="1" source="2LLBd-8nz-EJacW8x2TW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2LLBd-8nz-EJacW8x2TW-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Task_Update()&lt;div&gt;更新所有任务状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-17" edge="1" parent="1" source="2LLBd-8nz-EJacW8x2TW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2LLBd-8nz-EJacW8x2TW-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Scheduler_SlelctTask()&lt;div&gt;获取优先级最高任务的&lt;/div&gt;&lt;div&gt;任务块数组小标&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="370" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-11" edge="1" parent="1" source="2LLBd-8nz-EJacW8x2TW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="2LLBd-8nz-EJacW8x2TW-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="380" />
+              <mxPoint x="270" y="120" />
+            </Array>
+            <mxPoint x="270" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-12" connectable="0" parent="2LLBd-8nz-EJacW8x2TW-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.04" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-14" edge="1" parent="1" source="2LLBd-8nz-EJacW8x2TW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" target="2LLBd-8nz-EJacW8x2TW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-15" connectable="0" parent="2LLBd-8nz-EJacW8x2TW-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1653" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="数组下标 &amp;gt;= 0 ？" vertex="1">
+          <mxGeometry height="80" width="120" x="380" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-16" edge="1" parent="1" source="2LLBd-8nz-EJacW8x2TW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="2LLBd-8nz-EJacW8x2TW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2LLBd-8nz-EJacW8x2TW-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="执行任务" vertex="1">
+          <mxGeometry height="40" width="70" x="580" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

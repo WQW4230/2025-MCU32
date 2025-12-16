@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+  <diagram name="第 1 页" id="2i-z0grFttKZhw_GDAX5">
+    <mxGraphModel dx="1131" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-37" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Dii0Q82oFuNeLmppMgpv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="任务调度器主循环" vertex="1">
+          <mxGeometry height="40" width="120" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-38" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Dii0Q82oFuNeLmppMgpv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Task_Update&lt;div&gt;更新任务状态&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-28" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Dii0Q82oFuNeLmppMgpv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;任务优先级选择&lt;/div&gt;Scheduler_SlelctTask" vertex="1">
+          <mxGeometry height="50" width="150" x="165" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-24" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dii0Q82oFuNeLmppMgpv-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="记录当前任务为优先级最高" vertex="1">
+          <mxGeometry height="30" width="120" x="180" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-11" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dii0Q82oFuNeLmppMgpv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-12" connectable="0" parent="Dii0Q82oFuNeLmppMgpv-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0754" y="-1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-18" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dii0Q82oFuNeLmppMgpv-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-19" connectable="0" parent="Dii0Q82oFuNeLmppMgpv-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.8136" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="任务处于就绪态？" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-21" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Dii0Q82oFuNeLmppMgpv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-22" connectable="0" parent="Dii0Q82oFuNeLmppMgpv-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.1025" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-34" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Dii0Q82oFuNeLmppMgpv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-35" connectable="0" parent="Dii0Q82oFuNeLmppMgpv-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.4438" y="18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="当前任务优先级 &amp;gt; 记录任务优先级？" vertex="1">
+          <mxGeometry height="110" width="120" x="340" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-23" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dii0Q82oFuNeLmppMgpv-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="继续遍历下一个任务" vertex="1">
+          <mxGeometry height="30" width="120" x="180" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-16" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dii0Q82oFuNeLmppMgpv-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="跳过该任务" vertex="1">
+          <mxGeometry height="30" width="80" x="205" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-29" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Dii0Q82oFuNeLmppMgpv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-30" connectable="0" parent="Dii0Q82oFuNeLmppMgpv-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.0873" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-31" edge="1" parent="1" source="Dii0Q82oFuNeLmppMgpv-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-33" connectable="0" parent="Dii0Q82oFuNeLmppMgpv-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0422" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="遍历是否完成？" vertex="1">
+          <mxGeometry height="80" width="80" x="205" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="Dii0Q82oFuNeLmppMgpv-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="返回该任务块数组的下标" vertex="1">
+          <mxGeometry height="40" width="120" x="380" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

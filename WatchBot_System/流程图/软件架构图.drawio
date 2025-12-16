@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1131" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="flALMOvg65dEB9wJwUdX-15" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="flALMOvg65dEB9wJwUdX-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-27" connectable="0" parent="flALMOvg65dEB9wJwUdX-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="用户交互层" vertex="1">
+          <mxGeometry relative="1" x="0.2761" y="-2" as="geometry">
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="用户交互模块&lt;div&gt;OLED、LCD、红外遥控&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-17" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="flALMOvg65dEB9wJwUdX-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-33" connectable="0" parent="flALMOvg65dEB9wJwUdX-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="应用层" vertex="1">
+          <mxGeometry relative="1" x="0.2356" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-14" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="菜单选择控制" vertex="1">
+          <mxGeometry height="30" width="120" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-20" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="flALMOvg65dEB9wJwUdX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-23" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="flALMOvg65dEB9wJwUdX-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-16" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="裸机任务调度器" vertex="1">
+          <mxGeometry height="30" width="120" x="340" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-28" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="flALMOvg65dEB9wJwUdX-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H9qj5Mi4QIkoLr1WCQbK-1" connectable="0" parent="flALMOvg65dEB9wJwUdX-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="底层驱动" vertex="1">
+          <mxGeometry relative="1" x="-0.2717" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ESP32控制系统&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="190" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-35" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="flALMOvg65dEB9wJwUdX-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H9qj5Mi4QIkoLr1WCQbK-2" connectable="0" parent="flALMOvg65dEB9wJwUdX-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="底层驱动" vertex="1">
+          <mxGeometry relative="1" x="-0.051" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="STM32云台控制系统" vertex="1">
+          <mxGeometry height="30" width="120" x="340" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-37" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="flALMOvg65dEB9wJwUdX-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H9qj5Mi4QIkoLr1WCQbK-5" connectable="0" parent="flALMOvg65dEB9wJwUdX-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="底层驱动" vertex="1">
+          <mxGeometry relative="1" x="-0.051" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="STM32功能控制系统" vertex="1">
+          <mxGeometry height="30" width="120" x="490" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-24" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=-0.056;entryDx=0;entryDy=0;entryPerimeter=0;" target="flALMOvg65dEB9wJwUdX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AI检测模块、摄像头驱动模块、LCD驱动模块、LED驱动模块" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-30" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-18" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="flALMOvg65dEB9wJwUdX-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="345" />
+            </Array>
+            <mxPoint x="300" y="370" as="sourcePoint" />
+            <mxPoint x="350" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-32" edge="1" parent="1" source="flALMOvg65dEB9wJwUdX-21" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="flALMOvg65dEB9wJwUdX-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="345" />
+            </Array>
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="云台驱动模块、摇杆驱动模块、" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="flALMOvg65dEB9wJwUdX-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="蜂鸣器驱动模块、OLED驱动模块、红外接收器驱动模块、LED驱动模块" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

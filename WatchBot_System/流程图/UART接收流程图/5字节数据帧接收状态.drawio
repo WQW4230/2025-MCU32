@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+  <diagram name="第 1 页" id="Rmga0XkWZU3LD9AXu3pz">
+    <mxGraphModel dx="1131" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-3" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RLZCo2CiEsr4oLimd7Vr-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:&#39;Times New Roman&#39;;&lt;br/&gt;mso-hansi-font-family:&#39;Times New Roman&#39;;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:12.0000pt;&lt;br/&gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;STATE_RECV_DATA&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="329" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-5" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RLZCo2CiEsr4oLimd7Vr-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;存储该字节&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:&#39;Times New Roman&#39;;&amp;lt;br/&amp;gt;mso-hansi-font-family:&#39;Times New Roman&#39;;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:12.0000pt;&amp;lt;br/&amp;gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Data_index++&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-11" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RLZCo2CiEsr4oLimd7Vr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-12" connectable="0" parent="RLZCo2CiEsr4oLimd7Vr-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.5025" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-28" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RLZCo2CiEsr4oLimd7Vr-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="360" />
+              <mxPoint x="210" y="360" />
+            </Array>
+            <mxPoint x="300" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-29" connectable="0" parent="RLZCo2CiEsr4oLimd7Vr-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.4403" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 16px;&quot;&gt;Data_index == DATA_MIN_LEN ?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="309" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-24" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="RLZCo2CiEsr4oLimd7Vr-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="780" />
+            </Array>
+            <mxPoint x="574" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:&#39;Times New Roman&#39;;&amp;lt;br/&amp;gt;mso-hansi-font-family:&#39;Times New Roman&#39;;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:12.0000pt;&amp;lt;br/&amp;gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;当前数据帧可用&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;mso-spacerun:&#39;yes&#39;;font-family:宋体;mso-ascii-font-family:&#39;Times New Roman&#39;;&amp;lt;br/&amp;gt;mso-hansi-font-family:&#39;Times New Roman&#39;;mso-bidi-font-family:&#39;Times New Roman&#39;;font-size:12.0000pt;&amp;lt;br/&amp;gt;mso-font-kerning:1.0000pt;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;ESP32_Tx_Flag=1&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;，记录 &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Data_Len&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="499" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-13" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509.8333333333335" y="460.33333333333337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-14" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.711;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" target="RLZCo2CiEsr4oLimd7Vr-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="438" />
+              <mxPoint x="585" y="490" />
+              <mxPoint x="535" y="490" />
+            </Array>
+            <mxPoint x="580" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-15" connectable="0" parent="RLZCo2CiEsr4oLimd7Vr-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.0842" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-21" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-22" connectable="0" parent="RLZCo2CiEsr4oLimd7Vr-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.1553" y="19" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="帧头帧尾是否正确？" vertex="1">
+          <mxGeometry height="90" width="109" x="455.5" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-16" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RLZCo2CiEsr4oLimd7Vr-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-17" connectable="0" parent="RLZCo2CiEsr4oLimd7Vr-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1366" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="数据帧长度是否与长度字段一样？" vertex="1">
+          <mxGeometry height="90" width="120" x="450" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-25" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RLZCo2CiEsr4oLimd7Vr-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;数据错误，判定乱码&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;切换回&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 12pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;STATE_WAIT_EADER&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="300" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-19" edge="1" parent="1" source="RLZCo2CiEsr4oLimd7Vr-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.615;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="RLZCo2CiEsr4oLimd7Vr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-20" connectable="0" parent="RLZCo2CiEsr4oLimd7Vr-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.5361" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="结束流程&lt;div&gt;等待下一个字节&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="325" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="RLZCo2CiEsr4oLimd7Vr-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="继续接收下一个字节" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

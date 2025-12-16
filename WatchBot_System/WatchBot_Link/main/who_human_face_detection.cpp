@@ -106,8 +106,10 @@ static void task_process_ai(void *arg)
         {
             if (xQueueReceive(xQueueAIFrame, &frame, portMAX_DELAY))//等待10,000ms
             {
-                std::list<dl::detect::result_t> &detect_candidates = detector.infer((uint16_t *)frame->buf, {(int)frame->height, (int)frame->width, 3});
-                std::list<dl::detect::result_t> &detect_results = detector2.infer((uint16_t *)frame->buf, {(int)frame->height, (int)frame->width, 3}, detect_candidates);
+                std::list<dl::detect::result_t> &detect_candidates = detector.infer((uint16_t *)frame->buf, 
+                {(int)frame->height, (int)frame->width, 3});
+                std::list<dl::detect::result_t> &detect_results = detector2.infer((uint16_t *)frame->buf, 
+                {(int)frame->height, (int)frame->width, 3}, detect_candidates);
 
                 //检测到人脸时
                 if (detect_results.size() > 0)

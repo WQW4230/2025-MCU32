@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3">
+  <diagram name="第 1 页" id="hb1MTNZ8VhLN-3GRFLup">
+    <mxGraphModel dx="801" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-61" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-62" connectable="0" parent="HrQGD7ihZGAG3wmtRJuP-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="有人脸" vertex="1">
+          <mxGeometry relative="1" x="0.3647" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-38" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否有人脸" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-43" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进入报警模式，拍照，蜂鸣，灯光报警模式" vertex="1">
+          <mxGeometry height="60" width="100" x="270" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-45" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="追踪人脸" vertex="1">
+          <mxGeometry height="30" width="100" x="270" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-46" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-47" connectable="0" parent="HrQGD7ihZGAG3wmtRJuP-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="有" vertex="1">
+          <mxGeometry relative="1" x="0.0794" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-52" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="320.33333333333337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-55" connectable="0" parent="HrQGD7ihZGAG3wmtRJuP-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="无" vertex="1">
+          <mxGeometry relative="1" x="0.1063" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-44" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否有人脸" vertex="1">
+          <mxGeometry height="80" width="80" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-63" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进入巡逻模式，舵机按预定方向巡逻。灯光切换为巡逻模式" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-50" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.452;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="HrQGD7ihZGAG3wmtRJuP-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-51" connectable="0" parent="HrQGD7ihZGAG3wmtRJuP-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="无人脸" vertex="1">
+          <mxGeometry relative="1" x="0.4753" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-56" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-57" connectable="0" parent="HrQGD7ihZGAG3wmtRJuP-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="有" vertex="1">
+          <mxGeometry relative="1" x="0.1861" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-54" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="等待3s是否有人脸" vertex="1">
+          <mxGeometry height="90" width="120" x="414" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-58" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.448;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;" target="HrQGD7ihZGAG3wmtRJuP-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-59" connectable="0" parent="HrQGD7ihZGAG3wmtRJuP-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="无人脸" vertex="1">
+          <mxGeometry relative="1" x="-0.0089" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

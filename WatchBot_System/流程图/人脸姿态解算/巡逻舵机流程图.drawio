@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.3">
+  <diagram name="第 1 页" id="hb1MTNZ8VhLN-3GRFLup">
+    <mxGraphModel dx="961" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-23" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化巡逻模式" vertex="1">
+          <mxGeometry height="30" width="120" x="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-25" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HrQGD7ihZGAG3wmtRJuP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="控制云台巡逻角度步进&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="310" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-27" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="检查云台步进是否到达边界？" vertex="1">
+          <mxGeometry height="50" width="120" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-29" edge="1" parent="1" source="HrQGD7ihZGAG3wmtRJuP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HrQGD7ihZGAG3wmtRJuP-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;达到步进的最大值或最小值切换运动方向&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HrQGD7ihZGAG3wmtRJuP-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="按时间间隔更新巡逻角度&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="310" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.4">
+  <diagram name="第 1 页" id="ptM4z4s6c9nOl1vChnMm">
+    <mxGraphModel dx="961" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gwgD0Larb4qHw045e9Q3-4" edge="1" parent="1" source="gwgD0Larb4qHw045e9Q3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gwgD0Larb4qHw045e9Q3-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;pre class=&quot;container-S2LAkl language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-size: 1em; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #edededd9); --code-doc_v3: light-dark(#00000073, #ededed73); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #edededd9); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot;&gt;&lt;code class=&quot;language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-size: 13px; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto;&quot;&gt;&lt;span class=&quot;token text string&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; overflow-anchor: auto; background: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;       vTask_Delete&lt;/font&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;pre class=&quot;container-S2LAkl language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; overflow-wrap: normal; font-feature-settings: normal; font-size: 1em; font-variation-settings: normal; --code-text_v3: light-dark(#000000d9, #edededd9); --code-doc_v3: light-dark(#00000073, #ededed73); --code-Link_v3: light-dark(#2f74ff, #5591ff); --code-number_v3: light-dark(#e54595, #f76db2); --code-keycontrol_v3: light-dark(#9952e1, #b87bf6); --code-function_v3: light-dark(#ff5d4d, #ef6456); --code-variable_v3: light-dark(#000000d9, #edededd9); --code-parameter_v3: light-dark(#4da621, #428f1c); --code-attributes_v3: light-dark(#c70, #000000); --code-selection-bg-color: light-dark(#a9d6ff, #1a4164); background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); word-break: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow: auto; border-radius: 6px; overflow-anchor: auto; width: fit-content;&quot;&gt;&lt;code class=&quot;language-mermaid&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-feature-settings: normal; font-size: 13px; font-variation-settings: normal; background: transparent; border-radius: 4px; word-break: normal; word-spacing: normal; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; overflow-anchor: auto; color: rgba(0, 0, 0, 0.85);&quot;&gt;&lt;span class=&quot;token text string&quot; style=&quot;outline: none; -webkit-font-smoothing: antialiased; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border: 0px solid; margin: 0px; padding: 0px; overflow-anchor: auto; background: transparent; color: rgb(77, 166, 33);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 51);&quot;&gt;传入参数：待销毁任务函数指针&lt;/font&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="330" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-5" edge="1" parent="1" source="gwgD0Larb4qHw045e9Q3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gwgD0Larb4qHw045e9Q3-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="遍历任务块数组&lt;div&gt;匹配目标任务&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-8" edge="1" parent="1" source="gwgD0Larb4qHw045e9Q3-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-9" connectable="0" parent="gwgD0Larb4qHw045e9Q3-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2027" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-13" edge="1" parent="1" source="gwgD0Larb4qHw045e9Q3-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gwgD0Larb4qHw045e9Q3-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="290" />
+            </Array>
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否找到目标任务？" vertex="1">
+          <mxGeometry height="80" width="110" x="370" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-17" edge="1" parent="1" source="gwgD0Larb4qHw045e9Q3-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gwgD0Larb4qHw045e9Q3-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="销毁失败，无操作" vertex="1">
+          <mxGeometry height="30" width="120" x="280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-14" edge="1" parent="1" source="gwgD0Larb4qHw045e9Q3-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gwgD0Larb4qHw045e9Q3-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="清除任务块所有参数" vertex="1">
+          <mxGeometry height="30" width="120" x="450" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-16" edge="1" parent="1" source="gwgD0Larb4qHw045e9Q3-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gwgD0Larb4qHw045e9Q3-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="任务设为挂起状态，任务数-1" vertex="1">
+          <mxGeometry height="30" width="120" x="450" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gwgD0Larb4qHw045e9Q3-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="回到任务调度器&lt;div&gt;等待任务调度&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
